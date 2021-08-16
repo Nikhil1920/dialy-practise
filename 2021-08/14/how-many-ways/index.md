@@ -11,8 +11,9 @@ You should select three distinct integers from 1 to n. A total sum of the
 three integers is x. For example, there are two combinations for n = 5 and 
 x = 9.
 
-1 + 3 + 5 = 9
+1 + 3 + 5 = 9\
 2 + 3 + 4 = 9
+
 
 ### Input Format
 
@@ -23,7 +24,7 @@ The input ends with two zeros for n and x respectively. Your program
 should not process for these terminal symbols.
 
 ### Constraints
-3 ≤ n ≤ 100
+3 ≤ n ≤ 100\
 0 ≤ x ≤ 300
 
 ### Output Format
@@ -32,13 +33,14 @@ For each dataset, print the number of combinations in a line.
 
 ### Sample Input 0
 
-5 9
+5 9\
 0 0
 
 ### Sample Output 0
 
 2
 
+### java code
 ```java
 import java.util.Scanner;
 
